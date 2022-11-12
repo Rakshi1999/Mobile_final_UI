@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkorchid;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.outline{
+    width: 450px;
+    height: 650px;
+    background-color: rgb(246, 246, 246);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(241, 158, 158);
+    padding: 5px;
+    
+}
+.main{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://wallpapers.com/images/high/hd-car-with-blue-and-red-lights-pbuyh2mues2h2dz6.webp);
+    background-size: cover;
+    background-position: bottom;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    transition: background-color 0.1s ease-in-out;
+    margin: 10px;
+}
+hr{
+    margin: 2px;
+}
+
+.nav-link:hover{
+    color: slateblue;
+}
